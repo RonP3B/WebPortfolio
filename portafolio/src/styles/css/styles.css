@@ -1,2 +1,6 @@
 @import "./base/body.css";
+@import "./animations/route-fadeIn.css";
+@import "./animations/route-fadeOut.css";
+@import "./animations/spin.css";
 @import "./classes/route-transition.css";
+@import "./classes//custom-gallery-container.css";

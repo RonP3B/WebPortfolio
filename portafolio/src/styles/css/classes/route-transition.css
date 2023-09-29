@@ -1,0 +1,7 @@
+.route-fadeIn {
+  animation: 0.25s route-fadeIn forwards;
+}
+
+.route-fadeOut {
+  animation: 0.25s route-fadeOut forwards;
+}
