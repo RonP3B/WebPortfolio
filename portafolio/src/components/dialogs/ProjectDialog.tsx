@@ -88,7 +88,7 @@ const ProjectDialog: React.FC<ProjectDialogProps> = ({
           <Tooltip title="Download" placement="top">
             <FileDownloadRoundedIcon
               sx={{ color: "blue", fontSize: 35 }}
-              onClick={() => downloadFile("connect4.exe")}
+              onClick={() => downloadFile("files/connect4.exe")}
             />
           </Tooltip>
         )}

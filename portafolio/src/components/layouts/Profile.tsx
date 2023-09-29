@@ -26,7 +26,7 @@ const Profile: React.FC = () => {
         <Box
           component="img"
           alt="Roniell Pérez"
-          src="yolanda.jpg"
+          src="images/main/yolanda.jpg"
           sx={{ width: "100%" }}
         />
       </Box>
@@ -45,7 +45,7 @@ const Profile: React.FC = () => {
         <RoundedButton
           text="Download CV"
           icon={<DownloadForOfflineRoundedIcon />}
-          onClick={() => downloadFile("CV-Roniell Perez.pdf")}
+          onClick={() => downloadFile("files/CV-Roniell Perez.pdf")}
         />
       </Box>
     </Paper>

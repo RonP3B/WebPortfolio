@@ -8,7 +8,7 @@ export const projects: Array<Project> = [
     description:
       "MediSearch is an online platform that offers its users greater accessibility to medications and pharmaceutical products by efficiently and conveniently connecting customers, pharmacies, and laboratories.",
     tools: ["javascript", "react-js", "material-ui"],
-    images: getAllImages("src/assets/images/projects/MediSearch/", 15),
+    images: getAllImages("images/projects/MediSearch/", 15),
     source: "https://github.com/RonP3B/MediSearch-Frontend",
     projectUrl: "https://medisearch-tds.netlify.app/",
   },
@@ -30,7 +30,7 @@ export const projects: Array<Project> = [
       "css",
       "bootstrap",
     ],
-    images: getAllImages("src/assets/images/projects/WebPokedex/", 7),
+    images: getAllImages("images/projects/WebPokedex/", 7),
     source: "https://github.com/RonP3B/WebPokedex",
     projectUrl: "https://foremost-sulky-salmon.glitch.me/",
   },
@@ -41,7 +41,7 @@ export const projects: Array<Project> = [
     description:
       "ITLA-Indice is an innovative web application designed for students from ITLA to simplify and streamline the process of calculating a user's grade point average (GPA) with ease and precision.",
     tools: ["javascript", "react-js", "sass", "css"],
-    images: getAllImages("src/assets/images/projects/ItlaIndice/", 5),
+    images: getAllImages("images/projects/ItlaIndice/", 5),
     source: "https://github.com/RonP3B/Itla-Indice",
     projectUrl: "https://itla-indice.netlify.app/",
   },
@@ -63,7 +63,7 @@ export const projects: Array<Project> = [
       "css",
       "bootstrap",
     ],
-    images: getAllImages("src/assets/images/projects/BookApp/", 9),
+    images: getAllImages("images/projects/BookApp/", 9),
     source: "https://github.com/RonP3B/Book-WebApp",
     projectUrl: "https://zany-radial-ophthalmologist.glitch.me/",
   },
@@ -74,7 +74,7 @@ export const projects: Array<Project> = [
     description:
       "Connect4 is a project focused on creating an AI that excels at playing Connect 4. It utilizes advanced techniques like minimax with alpha-beta pruning and implements an Iterative Deepening Search (IDS) algorithm. These strategies enable the AI to make strategic decisions efficiently and adapt to various game complexities, making it a formidable Connect 4 player.",
     tools: ["python"],
-    images: getAllImages("src/assets/images/projects/Connect4/", 3),
+    images: getAllImages("images/projects/Connect4/", 3),
     source: "https://github.com/RonP3B/Connect4",
     projectUrl: null,
   },
@@ -95,7 +95,7 @@ export const projects: Array<Project> = [
       "css",
       "bootstrap",
     ],
-    images: getAllImages("src/assets/images/projects/NominaWeb/", 12),
+    images: getAllImages("images/projects/NominaWeb/", 12),
     source: "https://github.com/RonP3B/NominaWebApp/tree/main",
     projectUrl: "https://chip-stump-lady.glitch.me/",
   },
@@ -106,7 +106,7 @@ export const projects: Array<Project> = [
     description:
       "QuickLink is a user-friendly web application for creating short links in seconds. Simplify and condense long URLs with ease using QuickLink. Share, track, and manage your links effortlessly.",
     tools: ["javascript", "react-js", "sass", "css", "bootstrap"],
-    images: getAllImages("src/assets/images/projects/QuickLink/", 5),
+    images: getAllImages("images/projects/QuickLink/", 5),
     source: "https://github.com/RonP3B/QuickLink-Frontend",
     projectUrl: "https://roqk.netlify.app/",
   },
@@ -118,7 +118,7 @@ export const projects: Array<Project> = [
     description:
       "RESTful API designed to efficiently handle link management with essential CRUD (Create, Read, Update, Delete) functionality and secure JSON Web Tokens authentication. It's built using Node.js and Express, ensuring robust and reliable performance.",
     tools: ["javascript", "nodejs", "expressjs", "sequelize-orm"],
-    images: getAllImages("src/assets/images/projects/QuickLink-API/", 1),
+    images: getAllImages("images/projects/QuickLink-API/", 1),
     source: "https://github.com/RonP3B/QuickLink-Backend/tree/main",
     projectUrl: null,
   },
@@ -141,7 +141,7 @@ export const projects: Array<Project> = [
       "css",
       "bootstrap",
     ],
-    images: getAllImages("src/assets/images/projects/SocialMedia/", 5),
+    images: getAllImages("images/projects/SocialMedia/", 5),
     source: "https://github.com/RonP3B/SocialMedia",
     projectUrl: "https://iced-reliable-hydrant.glitch.me/",
   },
@@ -152,7 +152,7 @@ export const projects: Array<Project> = [
     description:
       "CV-Generator is a simple web application that helps users create CVs quickly and easily. Just fill out a form, and CV-Generator will generate a basic CV for you. It's perfect for those looking for a straightforward way to create a CV online.",
     tools: ["javascript", "sass", "css", "html"],
-    images: getAllImages("src/assets/images/projects/CV-Generator/", 2),
+    images: getAllImages("images/projects/CV-Generator/", 2),
     source: "https://github.com/RonP3B/CV-Generator",
     projectUrl: "https://roniell-cv-generator.netlify.app/",
   },
@@ -163,10 +163,7 @@ export const projects: Array<Project> = [
     description:
       "Basic Module Inscription is a straightforward web application designed to simplify the process of scheduling module inscriptions. With a user-friendly interface, this tool allows users to easily add and manage module inscriptions.",
     tools: ["html", "sass", "css", "jquery", "javascript"],
-    images: getAllImages(
-      "src/assets/images/projects/BasicModuleInscription/",
-      3
-    ),
+    images: getAllImages("images/projects/BasicModuleInscription/", 3),
     source: "https://github.com/RonP3B/BasicInscriptionModule",
     projectUrl: "https://inscription-module.netlify.app/",
   },
@@ -188,7 +185,7 @@ export const projects: Array<Project> = [
       "css",
       "bootstrap",
     ],
-    images: getAllImages("src/assets/images/projects/MoviesManager/", 3),
+    images: getAllImages("images/projects/MoviesManager/", 3),
     source: "https://github.com/RonP3B/Movies-Manager",
     projectUrl: "https://oil-sneaky-jewel.glitch.me/",
   },
@@ -199,7 +196,7 @@ export const projects: Array<Project> = [
     description:
       "RoCocktails is a web application that lets users search for and explore cocktail recipes and details. Discover new drinks and learn how to make them with this easy-to-use cocktail resource.",
     tools: ["javascript", "reactjs", "sass", "html", "css"],
-    images: getAllImages("src/assets/images/projects/RoCocktails/", 2),
+    images: getAllImages("images/projects/RoCocktails/", 2),
     source: "https://github.com/RonP3B/RoCocktails-react",
     projectUrl: "https://ro-cocktails.netlify.app/",
   },
@@ -210,10 +207,7 @@ export const projects: Array<Project> = [
     description:
       "A basic personal website showcasing my portfolio and skills just using html and css-sass.",
     tools: ["html", "sass", "css"],
-    images: getAllImages(
-      "src/assets/images/projects/PersonalWebsiteDesign/",
-      4
-    ),
+    images: getAllImages("images/projects/PersonalWebsiteDesign/", 4),
     source: "https://github.com/RonP3B/PersonalWebsiteDesign",
     projectUrl: "https://roniellpersonalwebsite.netlify.app/",
   },
@@ -224,7 +218,7 @@ export const projects: Array<Project> = [
     description:
       "An app that offers secure user login and registration, allowing users to access their accounts with usernames and hidden passwords. After logging in, users can view a list of all registered users with their names, phone numbers, and email addresses.",
     tools: ["java", "mysql"],
-    images: getAllImages("src/assets/images/projects/GestorUsuarios/", 4),
+    images: getAllImages("images/projects/GestorUsuarios/", 4),
     source: "https://github.com/RonP3B/GestionUsuarios-Tarea4",
     projectUrl: null,
   },
@@ -235,7 +229,7 @@ export const projects: Array<Project> = [
     description:
       "An application featuring a dynamic Splash Screen with unique visuals. This app boasts a secure Login system, authenticating users against the 'Entities Table' with UserNameEntidad and PasswordEntidad. In case of no credentials, it redirects to 'Entity Maintenance' for entity creation.",
     tools: ["c#", "sql server"],
-    images: getAllImages("src/assets/images/projects/SellPoint/", 3),
+    images: getAllImages("images/projects/SellPoint/", 3),
     source: "https://github.com/RonP3B/SellPoint",
     projectUrl: null,
   },
@@ -246,7 +240,7 @@ export const projects: Array<Project> = [
     description:
       "API designed to provide seamless access to comprehensive information about the careers and subjects offered by the Instituto Tecnológico de Las Américas (ITLA) institution.",
     tools: ["javascript", "nodejs", "expressjs", "mysql"],
-    images: getAllImages("src/assets/images/projects/ItlaMaterias-Api/", 1),
+    images: getAllImages("images/projects/ItlaMaterias-Api/", 1),
     source: "https://github.com/RonP3B/Api-ItlaMaterias",
     projectUrl: "https://api-itla-materias.vercel.app/carreras",
   },
@@ -257,7 +251,7 @@ export const projects: Array<Project> = [
     description:
       "desktop application designed as part of a user-centered design course, with a primary focus on design principles rather than functionality. This project, coded primarily in C#, aims to provide an interactive and user-friendly interface for a medical appointment scheduling system.",
     tools: ["c#", "sql server"],
-    images: getAllImages("src/assets/images/projects/CitaMedica/", 4),
+    images: getAllImages("images/projects/CitaMedica/", 4),
     source: "https://github.com/RonP3B/CitaMedica",
     projectUrl: null,
   },
