@@ -1,8 +1,8 @@
 import { useState } from "react";
-import UnderlinedTitle from "../components/UnderlinedTitle";
+import UnderlinedTitle from "../components/UI/UnderlinedTitle";
 import { Project, projects } from "../data/projects";
 import InfoTwoToneIcon from "@mui/icons-material/InfoTwoTone";
-import ProjectDialog from "../components/ProjectDialog";
+import ProjectDialog from "../components/dialogs/ProjectDialog";
 import {
   Card,
   CardActionArea,
@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
 
   return (
     <Paper sx={{ padding: "38px 30px 45px" }}>
-      <UnderlinedTitle title="Proyectos" />
+      <UnderlinedTitle title="Projects" />
       <Grid container spacing={2} sx={{ mt: 3 }}>
         {projects.map((project) => (
           <Grid key={project.id} item xs={12} sm={6} lg={4}>

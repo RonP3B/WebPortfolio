@@ -1,4 +1,4 @@
-import { createContext, useState, useMemo, ReactNode } from "react";
+import { createContext, useState, useMemo, ReactNode, useEffect } from "react";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 
 const ColorModeContext = createContext<ColorModeContextProps>({
@@ -10,10 +10,28 @@ const ColorModeContext = createContext<ColorModeContextProps>({
 export const ColorModeProvider: React.FC<{ children: ReactNode }> = ({
   children,
 }) => {
-  const [primaryColor, setPrimaryColor] = useState<string>("#1976D2");
-  const [mode, setMode] = useState<"light" | "dark">(
-    window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"
-  );
+  const [primaryColor, setPrimaryColor] = useState<string>(() => {
+    const storedPrimaryColor = localStorage.getItem("primaryColor");
+    return storedPrimaryColor || "#1976D2";
+  });
+
+  const [mode, setMode] = useState<"light" | "dark">(() => {
+    const storedMode = localStorage.getItem("mode");
+    return (
+      (storedMode as "light" | "dark") ||
+      (window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? "dark"
+        : "light")
+    );
+  });
+
+  useEffect(() => {
+    localStorage.setItem("primaryColor", primaryColor);
+  }, [primaryColor]);
+
+  useEffect(() => {
+    localStorage.setItem("mode", mode);
+  }, [mode]);
 
   const colorMode = useMemo(
     () => ({

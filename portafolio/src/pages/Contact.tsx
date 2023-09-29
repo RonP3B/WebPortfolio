@@ -1,13 +1,14 @@
 import { useState } from "react";
-import { Paper, Grid, Typography } from "@mui/material";
-import UnderlinedTitle from "../components/UnderlinedTitle";
+import { Paper, Grid, Typography, IconButton, Box } from "@mui/material";
+import UnderlinedTitle from "../components/UI/UnderlinedTitle";
 import { Formik, Form } from "formik";
-import InputField from "../components/InputField";
+import InputField from "../components/inputs/InputField";
 import useContactFormik from "../hooks/useContactFormik";
-import SubmitButton from "../components/SubmitButton";
+import SubmitButton from "../components/buttons/SubmitButton";
 import { contactData } from "../data/contact";
 import { nanoid } from "nanoid";
-import Map from "../components/Map";
+import Map from "../components/maps/Map";
+import LaunchRoundedIcon from "@mui/icons-material/LaunchRounded";
 
 const Contact: React.FC = () => {
   const [submitting, setSubmitting] = useState<boolean>(false);
@@ -63,10 +64,24 @@ const Contact: React.FC = () => {
         </Grid>
         <Grid item xs={12} md={6}>
           <UnderlinedTitle title="Contact Informations" />
-          {contactData.map(({ title, val }) => (
-            <Typography key={nanoid()} variant="body2" sx={{ mt: 3.2 }}>
-              <strong>{title}</strong> {val}
-            </Typography>
+          {contactData.map(({ title, val, link }) => (
+            <Box key={nanoid()} display="flex" alignItems="center" mt={3.2}>
+              <Typography variant="body2">
+                <strong>{title}</strong> {val}
+              </Typography>
+              {link && (
+                <IconButton
+                  LinkComponent="a"
+                  href={link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  color="primary"
+                  sx={{ py: 0 }}
+                >
+                  <LaunchRoundedIcon />
+                </IconButton>
+              )}
+            </Box>
           ))}
         </Grid>
         <Grid item xs={12} sx={{ mt: 3 }}>
