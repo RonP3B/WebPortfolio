@@ -5,12 +5,14 @@ export const resume = {
       school: "Morayca",
       date: "Graduated in 2019",
       gpa: null,
+      source: "files/SchoolCertificate.pdf",
     },
     {
       title: "Diploma of Education, Computer Software Technology/Technician",
       school: "Instituto Tecnológico de Las Américas",
       date: "2021 - 2023",
       gpa: "GPA: 3.9/4.0",
+      source: null,
     },
   ],
   certifications: [
@@ -46,6 +48,11 @@ export const resume = {
       link: "https://en.wikipedia.org/wiki/JavaScript",
     },
     {
+      icon: "images/skills/typescript.png",
+      name: "TypeScript",
+      link: "https://en.wikipedia.org/wiki/TypeScript",
+    },
+    {
       icon: "images/skills/java.png",
       name: "Java",
       link: "https://en.wikipedia.org/wiki/Java_%28programming_language%29",
@@ -54,11 +61,6 @@ export const resume = {
       icon: "images/skills/python.png",
       name: "Python",
       link: "https://en.wikipedia.org/wiki/Python",
-    },
-    {
-      icon: "images/skills/typescript.png",
-      name: "TypeScript",
-      link: "https://en.wikipedia.org/wiki/TypeScript",
     },
     {
       icon: "images/skills/sql.png",
@@ -92,7 +94,7 @@ export const resume = {
     },
     {
       icon: "images/skills/react.png",
-      name: "React.js",
+      name: "React",
       link: "https://en.wikipedia.org/wiki/React_(software)",
     },
     {
@@ -116,13 +118,18 @@ export const resume = {
       link: "https://handlebarsjs.com/guide/",
     },
     {
+      icon: "images/skills/nestjs.svg",
+      name: "Nestjs",
+      link: "https://docs.nestjs.com/",
+    },
+    {
       icon: "images/skills/node-js.png",
-      name: "Node.js",
+      name: "Nodejs",
       link: "https://en.wikipedia.org/wiki/Node.js",
     },
     {
       icon: "images/skills/express.png",
-      name: "Express.js",
+      name: "Expressjs",
       link: "https://en.wikipedia.org/wiki/Express.js",
     },
     {
@@ -131,9 +138,24 @@ export const resume = {
       link: "https://sequelize.org/",
     },
     {
+      icon: "images/skills/prisma.png",
+      name: "Prisma-orm",
+      link: "https://www.prisma.io/docs/orm/overview/introduction/what-is-prisma",
+    },
+    {
       icon: "images/skills/api.png",
       name: "API",
       link: "https://en.wikipedia.org/wiki/API",
+    },
+    {
+      icon: "images/skills/mvc.png",
+      name: "MVC",
+      link: "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller",
+    },
+    {
+      icon: "images/skills/socketio.png",
+      name: "Socket.IO",
+      link: "https://en.wikipedia.org/wiki/Socket.IO",
     },
     {
       icon: "images/skills/json-file.png",
@@ -164,6 +186,11 @@ export const resume = {
       icon: "images/skills/oop.png",
       name: "OOP",
       link: "https://en.wikipedia.org/wiki/Object-oriented_programming",
+    },
+    {
+      icon: "images/skills/agile.png",
+      name: "Agile Methodologies",
+      link: "https://asana.com/resources/agile-methodology",
     },
   ],
 };
