@@ -8,7 +8,7 @@ export const technicalProficiencies = [
   {
     icon: "images/technicalProficiencies/backend.png",
     lightIcon: "images/technicalProficiencies/backendWhite.png",
-    title: " Server-side Coding",
+    title: "Server-side Coding",
     description: "Server-side logic coding and database integration.",
   },
   {

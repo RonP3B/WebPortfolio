@@ -24,7 +24,17 @@ const Resume: React.FC = () => {
                     {data.title}
                   </Typography>
                   <Typography variant="subtitle1">{data.school}</Typography>
-                  <Typography variant="subtitle2">{data.date}</Typography>
+                  <Box display="flex" alignItems="center">
+                    <Typography variant="subtitle2">{data.date}</Typography>
+                    {data.source && (
+                      <IconButton
+                        color="primary"
+                        onClick={() => downloadFile(data.source)}
+                      >
+                        <DownloadRoundedIcon />
+                      </IconButton>
+                    )}
+                  </Box>
                   {data.gpa && (
                     <Typography variant="subtitle2">{data.gpa}</Typography>
                   )}

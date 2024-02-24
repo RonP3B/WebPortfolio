@@ -14,6 +14,34 @@ export const projects: Array<Project> = [
   },
   {
     id: 2,
+    name: "ChatApp",
+    type: "Web Application",
+    description:
+      "ChatApp is an application designed for seamless communication, connecting users through a stylish and user-friendly interface. Utilizing web sockets, it enables real-time interactions for sharing messages, multimedia, and more. The frontend, crafted with modern tools, guarantees a smooth experience with instant updates, enhancing the overall connectivity within the platform.",
+    tools: ["typescript", "react", "material-ui", "socket.io"],
+    images: getAllImages("images/projects/ChatApp/", 14),
+    source: "https://github.com/RonP3B/ChatApp-Frontend",
+    projectUrl: "https://roniell-chat-app.netlify.app/",
+  },
+  {
+    id: 3,
+    name: "ChatApp-API",
+    type: "Application Programming Interface",
+    description:
+      "Backend implementation for a scalable and efficient realtime chat app. Handles authentication, message routing, jwt authentication, and ensures instant communication between clients using WebSocket technology.",
+    tools: [
+      "nestjs",
+      "typescript",
+      "prisma",
+      "socket.io",
+      "jwt-authentication",
+    ],
+    images: getAllImages("images/projects/ApiProject/", 1),
+    source: "https://github.com/RonP3B/ChatApp-Backend",
+    projectUrl: null,
+  },
+  {
+    id: 4,
     name: "Web Pokedex",
     type: "Web Application",
     description:
@@ -35,7 +63,7 @@ export const projects: Array<Project> = [
     projectUrl: "https://foremost-sulky-salmon.glitch.me/",
   },
   {
-    id: 3,
+    id: 5,
     name: "Itla-Indice",
     type: "Web Application",
     description:
@@ -46,7 +74,7 @@ export const projects: Array<Project> = [
     projectUrl: "https://itla-indice.netlify.app/",
   },
   {
-    id: 4,
+    id: 6,
     name: "BookApp",
     type: "Web Application",
     description:
@@ -68,7 +96,7 @@ export const projects: Array<Project> = [
     projectUrl: "https://zany-radial-ophthalmologist.glitch.me/",
   },
   {
-    id: 5,
+    id: 7,
     name: "Connect4",
     type: "Desktop Application",
     description:
@@ -79,7 +107,7 @@ export const projects: Array<Project> = [
     projectUrl: null,
   },
   {
-    id: 6,
+    id: 8,
     name: "Nomina WebApp",
     type: "Web Application",
     description:
@@ -100,7 +128,7 @@ export const projects: Array<Project> = [
     projectUrl: "https://chip-stump-lady.glitch.me/",
   },
   {
-    id: 7,
+    id: 9,
     name: "QuickLink",
     type: "Web Application",
     description:
@@ -112,19 +140,25 @@ export const projects: Array<Project> = [
   },
 
   {
-    id: 8,
+    id: 10,
     name: "QuickLink-API",
     type: "Application Programming Interface",
     description:
       "RESTful API designed to efficiently handle link management with essential CRUD (Create, Read, Update, Delete) functionality and secure JSON Web Tokens authentication. It's built using Node.js and Express, ensuring robust and reliable performance.",
-    tools: ["javascript", "nodejs", "expressjs", "sequelize-orm"],
-    images: getAllImages("images/projects/QuickLink-API/", 1),
+    tools: [
+      "javascript",
+      "nodejs",
+      "expressjs",
+      "sequelize-orm",
+      "jwt-authentication",
+    ],
+    images: getAllImages("images/projects/ApiProject/", 1),
     source: "https://github.com/RonP3B/QuickLink-Backend/tree/main",
     projectUrl: null,
   },
 
   {
-    id: 9,
+    id: 11,
     name: "Social Media",
     type: "Web Application",
     description:
@@ -146,7 +180,7 @@ export const projects: Array<Project> = [
     projectUrl: "https://iced-reliable-hydrant.glitch.me/",
   },
   {
-    id: 10,
+    id: 12,
     name: "CV-Generator",
     type: "Web Application",
     description:
@@ -157,7 +191,7 @@ export const projects: Array<Project> = [
     projectUrl: "https://roniell-cv-generator.netlify.app/",
   },
   {
-    id: 11,
+    id: 13,
     name: "Basic Module Inscription",
     type: "Web Application",
     description:
@@ -168,7 +202,7 @@ export const projects: Array<Project> = [
     projectUrl: "https://inscription-module.netlify.app/",
   },
   {
-    id: 12,
+    id: 14,
     name: "Movies Manager",
     type: "Web Application",
     description:
@@ -190,7 +224,7 @@ export const projects: Array<Project> = [
     projectUrl: "https://oil-sneaky-jewel.glitch.me/",
   },
   {
-    id: 13,
+    id: 15,
     name: "RoCocktails",
     type: "Web Application",
     description:
@@ -201,7 +235,7 @@ export const projects: Array<Project> = [
     projectUrl: "https://ro-cocktails.netlify.app/",
   },
   {
-    id: 14,
+    id: 16,
     name: "Personal Website Design",
     type: "Web Site",
     description:
@@ -212,18 +246,18 @@ export const projects: Array<Project> = [
     projectUrl: "https://roniellpersonalwebsite.netlify.app/",
   },
   {
-    id: 15,
-    name: "Gestor Usuarios",
-    type: "Desktop Application",
+    id: 17,
+    name: "ItlaMaterias-API",
+    type: "Application Programming Interface",
     description:
-      "An app that offers secure user login and registration, allowing users to access their accounts with usernames and hidden passwords. After logging in, users can view a list of all registered users with their names, phone numbers, and email addresses.",
-    tools: ["java", "mysql"],
-    images: getAllImages("images/projects/GestorUsuarios/", 4),
-    source: "https://github.com/RonP3B/GestionUsuarios-Tarea4",
-    projectUrl: null,
+      "API designed to provide seamless access to comprehensive information about the careers and subjects offered by the Instituto Tecnológico de Las Américas (ITLA) institution.",
+    tools: ["javascript", "nodejs", "expressjs", "mysql"],
+    images: getAllImages("images/projects/ApiProject/", 1),
+    source: "https://github.com/RonP3B/Api-ItlaMaterias",
+    projectUrl: "https://api-itla-materias.vercel.app/carreras",
   },
   {
-    id: 16,
+    id: 18,
     name: "SellPoint",
     type: "Desktop Application",
     description:
@@ -234,18 +268,29 @@ export const projects: Array<Project> = [
     projectUrl: null,
   },
   {
-    id: 17,
-    name: "ItlaMaterias-API",
-    type: "Application Programming Interface",
+    id: 19,
+    name: "Gestor Usuarios",
+    type: "Desktop Application",
     description:
-      "API designed to provide seamless access to comprehensive information about the careers and subjects offered by the Instituto Tecnológico de Las Américas (ITLA) institution.",
-    tools: ["javascript", "nodejs", "expressjs", "mysql"],
-    images: getAllImages("images/projects/ItlaMaterias-Api/", 1),
-    source: "https://github.com/RonP3B/Api-ItlaMaterias",
-    projectUrl: "https://api-itla-materias.vercel.app/carreras",
+      "An app that offers secure user login and registration, allowing users to access their accounts with usernames and hidden passwords. After logging in, users can view a list of all registered users with their names, phone numbers, and email addresses.",
+    tools: ["java", "mysql"],
+    images: getAllImages("images/projects/GestorUsuarios/", 4),
+    source: "https://github.com/RonP3B/GestionUsuarios-Tarea4",
+    projectUrl: null,
   },
   {
-    id: 18,
+    id: 20,
+    name: "BasicMenu",
+    type: "Desktop Application",
+    description:
+      "Desktop application created as part of a software development introduction course. It is a menu with options to capture values, generate multiplication tables, check primality, display matrix diagonals, and exit.",
+    tools: ["java", "mysql"],
+    images: getAllImages("images/projects/BasicMenu/", 4),
+    source: "https://github.com/RonP3B/Proyecto---Introd.Algoritmos",
+    projectUrl: null,
+  },
+  {
+    id: 21,
     name: "CitaMedica",
     type: "Desktop Application",
     description:
