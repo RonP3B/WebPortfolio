@@ -84,7 +84,7 @@ const ProjectDialog: React.FC<ProjectDialogProps> = ({
             </a>
           </Tooltip>
         )}
-        {project.id === 5 && (
+        {project.name === "Connect4" && (
           <Tooltip title="Download" placement="top">
             <FileDownloadRoundedIcon
               sx={{ color: "blue", fontSize: 35 }}
