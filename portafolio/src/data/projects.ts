@@ -284,7 +284,7 @@ export const projects: Array<Project> = [
     type: "Desktop Application",
     description:
       "Desktop application created as part of a software development introduction course. It is a menu with options to capture values, generate multiplication tables, check primality, display matrix diagonals, and exit.",
-    tools: ["java", "mysql"],
+    tools: ["java"],
     images: getAllImages("images/projects/BasicMenu/", 4),
     source: "https://github.com/RonP3B/Proyecto---Introd.Algoritmos",
     projectUrl: null,
