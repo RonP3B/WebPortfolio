@@ -8,6 +8,7 @@ import { resume } from "../data/resume";
 import { nanoid } from "nanoid";
 import DownloadRoundedIcon from "@mui/icons-material/DownloadRounded";
 import { downloadFile } from "../utils/downloadFile";
+import { resumeStyles } from "@/styles/css/pages/resume-styles";
 
 const Resume: React.FC = () => {
   return (
@@ -103,27 +104,13 @@ const Resume: React.FC = () => {
               rel="noopener noreferrer"
               xs={4}
               sm={2}
-              sx={{
-                textDecoration: "none",
-                color: "inherit",
-                cursor: "pointer",
-                "&:hover": {
-                  "& .skillName": {
-                    color: "primary.main",
-                  },
-                },
-              }}
+              sx={resumeStyles.skillGrid}
             >
               <Box
                 component="img"
                 alt={skill.name}
                 src={skill.icon}
-                sx={{
-                  height: 45,
-                  width: 45,
-                  display: "block",
-                  margin: "0 auto",
-                }}
+                sx={resumeStyles.skillBox}
               />
               <Typography
                 variant="subtitle2"
@@ -146,18 +133,46 @@ const Resume: React.FC = () => {
                 component="img"
                 alt={language}
                 src={icon}
-                sx={{
-                  height: 60,
-                  width: 60,
-                  display: "block",
-                  margin: "0 auto",
-                }}
+                sx={resumeStyles.languageBox}
               />
               <Typography variant="subtitle1" fontWeight="bold">
                 {language}
               </Typography>
               <Typography variant="subtitle2" fontWeight="normal">
                 {level}
+              </Typography>
+            </Grid>
+          ))}
+        </Grid>
+      </Box>
+      <Box>
+        <UnderlinedTitle title="Currently learning" />
+        <Grid container spacing={2} sx={{ my: 2 }}>
+          {resume.learningSkills.map((skill) => (
+            <Grid
+              item
+              key={nanoid()}
+              component="a"
+              href={skill.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              xs={4}
+              sm={2}
+              sx={resumeStyles.skillGrid}
+            >
+              <Box
+                component="img"
+                alt={skill.name}
+                src={skill.icon}
+                sx={resumeStyles.skillBox}
+              />
+              <Typography
+                variant="subtitle2"
+                textAlign="center"
+                className="skillName"
+                sx={{ transition: "color 0.3s" }}
+              >
+                {skill.name}
               </Typography>
             </Grid>
           ))}

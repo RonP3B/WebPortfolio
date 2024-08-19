@@ -201,4 +201,16 @@ export const resume = {
       link: "https://asana.com/resources/agile-methodology",
     },
   ],
+  learningSkills: [
+    {
+      icon: "images/skills/AspDotNet.png",
+      name: "ASP.NET",
+      link: "https://dotnet.microsoft.com/en-us/learn/aspnet/what-is-aspnet",
+    },
+    {
+      icon: "images/skills/hexagonal.png",
+      name: "Hexagonal architecture pattern",
+      link: "https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/hexagonal-architecture.html#:~:text=The%20hexagonal%20architecture%20pattern%2C%20which,or%20user%20interfaces%20(UIs).",
+    },
+  ],
 };
