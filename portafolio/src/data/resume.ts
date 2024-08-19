@@ -29,6 +29,14 @@ export const resume = {
       source: "files/EFSETCertificate.pdf",
     },
   ],
+  workExperience: [
+    {
+      title: "Web Developer",
+      organization: "Planeta Web",
+      date: "March 2024 - Aug 2024",
+      description: "At Planeta Web, a startup owned by Emmanuel Sosa Grullon (Executive Director of ICT at Banco Agrícola DR), I worked on the main software application using JavaScript, TypeScript, C#, ASP.NET MVC, PostgreSQL, Azure DevOps, GitHub, Visual Studio, and Scrum."
+    }
+  ],
   languages: [
     {
       icon: "images/skills/spain.png",

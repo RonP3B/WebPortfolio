@@ -3,6 +3,7 @@ import UnderlinedTitle from "../components/UI/UnderlinedTitle";
 import Timeline from "../components/UI/Timeline";
 import SchoolRoundedIcon from "@mui/icons-material/SchoolRounded";
 import WorkspacePremiumRoundedIcon from "@mui/icons-material/WorkspacePremiumRounded";
+import WorkRoundedIcon from "@mui/icons-material/WorkRounded";
 import { resume } from "../data/resume";
 import { nanoid } from "nanoid";
 import DownloadRoundedIcon from "@mui/icons-material/DownloadRounded";
@@ -38,6 +39,26 @@ const Resume: React.FC = () => {
                   {data.gpa && (
                     <Typography variant="subtitle2">{data.gpa}</Typography>
                   )}
+                </>
+              ))}
+            />
+          </Grid>
+          <Grid item xs={12} md={6}>
+            <Timeline
+              Icon={WorkRoundedIcon}
+              title={"Work experience"}
+              content={resume.workExperience.map((data) => (
+                <>
+                  <Typography variant="subtitle1" fontWeight="bold">
+                    {data.title}
+                  </Typography>
+                  <Typography variant="subtitle1">
+                    {data.organization}
+                  </Typography>
+                  <Typography variant="subtitle2">{data.date}</Typography>
+                  <Typography variant="subtitle2">
+                    {data.description}
+                  </Typography>
                 </>
               ))}
             />
