@@ -11,7 +11,7 @@ export const resume = {
       title: "Diploma of Education, Computer Software Technology/Technician",
       school: "Instituto Tecnológico de Las Américas",
       date: "2021 - 2023",
-      gpa: "GPA: 3.9/4.0",
+      gpa: "GPA: 4.0/4.0",
       source: null,
     },
   ],
