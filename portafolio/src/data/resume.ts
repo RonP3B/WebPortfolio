@@ -66,9 +66,9 @@ export const resume = {
       link: "https://en.wikipedia.org/wiki/Java_%28programming_language%29",
     },
     {
-      icon: "images/skills/python.png",
-      name: "Python",
-      link: "https://en.wikipedia.org/wiki/Python",
+      icon: "images/skills/CSharp.png",
+      name: "C#",
+      link: "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)",
     },
     {
       icon: "images/skills/sql.png",
@@ -96,9 +96,9 @@ export const resume = {
       link: "https://en.wikipedia.org/wiki/CSS",
     },
     {
-      icon: "images/skills/sass.png",
-      name: "Sass",
-      link: "https://en.wikipedia.org/wiki/Sass_(style_sheet_language)",
+      icon: "images/skills/postgresql.png",
+      name: "PostgreSQL",
+      link: "https://www.postgresql.org",
     },
     {
       icon: "images/skills/react.png",
