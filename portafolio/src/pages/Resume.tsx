@@ -163,16 +163,6 @@ const Resume: React.FC = () => {
           ))}
         </Grid>
       </Box>
-      <Box>
-        <UnderlinedTitle title="Objective" />
-        <Typography variant="body1" my={2}>
-          Enthusiastic and diligent software development student with an
-          academic background and a passion for problem-solving and coding.
-          Eager to leverage my skills and knowledge to contribute effectively to
-          a dynamic team and gain practical experience in the software
-          development industry.
-        </Typography>
-      </Box>
     </Paper>
   );
 };
