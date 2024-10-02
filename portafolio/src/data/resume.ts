@@ -4,15 +4,15 @@ export const resume = {
       title: "High School Diploma",
       school: "Morayca",
       date: "Graduated in 2019",
-      gpa: null,
-      source: "files/SchoolCertificate.pdf",
+      gpa: undefined,
+      diploma: "files/SchoolCertificate.pdf",
     },
     {
       title: "Diploma of Education, Computer Software Technology/Technician",
       school: "Instituto Tecnológico de Las Américas",
       date: "2021 - 2023",
       gpa: "GPA: 4.0/4.0",
-      source: null,
+      diploma: undefined,
     },
   ],
   certifications: [
@@ -25,7 +25,7 @@ export const resume = {
     {
       title: "EFSET English Certificate (C1 Advanced)",
       organization: "EF Standard English Test (EF SET)",
-      date: "Sep 2023",
+      date: "Jul 2024",
       source: "files/EFSETCertificate.pdf",
     },
   ],
@@ -35,7 +35,8 @@ export const resume = {
       organization: "Planeta Web",
       date: "March 2024 - Aug 2024",
       description:
-        "At Planeta Web, a startup owned by Emmanuel Sosa Grullon (Executive Director of ICT at Banco Agrícola DR), I worked on the main software application using JavaScript, TypeScript, C#, ASP.NET MVC, PostgreSQL, Azure DevOps, GitHub, Visual Studio, and Scrum.",
+        "At Planeta Web I worked on the main software application, working on both front-end and backend using JavaScript, TypeScript, C#, and ASP.NET MVC. I also handled data modeling with PostgreSQL and managed continuous integration with Azure DevOps, GitHub, and Visual Studio, following Scrum methodologies for efficient project delivery.",
+      workCertificate: "files/PlaneteWebCertificate.pdf",
     },
   ],
   languages: [
@@ -210,8 +211,13 @@ export const resume = {
     },
     {
       icon: "images/skills/hexagonal.png",
-      name: "Hexagonal architecture pattern",
-      link: "https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/hexagonal-architecture.html#:~:text=The%20hexagonal%20architecture%20pattern%2C%20which,or%20user%20interfaces%20(UIs).",
+      name: "Clean architecture",
+      link: "https://www.techtarget.com/whatis/definition/clean-architecture",
+    },
+    {
+      icon: "images/skills/CQRS.png",
+      name: "CQRS pattern",
+      link: "https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs",
     },
   ],
 };
