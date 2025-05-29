@@ -8,10 +8,10 @@ export const resume = {
       diploma: "files/SchoolCertificate.pdf",
     },
     {
-      title: "Diploma of Education, Computer Software Technology/Technician",
+      title: "Degree in Software Development – Technologist",
       school: "Instituto Tecnológico de Las Américas",
       date: "2021 - 2024",
-      gpa: "GPA: 3.98/4.0",
+      gpa: "GPA: 3.98/4.0 — Honors: Outstanding",
       diploma: "files/ITLACertificate.pdf",
     },
   ],
