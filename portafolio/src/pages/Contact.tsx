@@ -63,7 +63,7 @@ const Contact: React.FC = () => {
           </Formik>
         </Grid>
         <Grid item xs={12} md={6}>
-          <UnderlinedTitle title="Contact Informations" />
+          <UnderlinedTitle title="Contact Information" />
           {contactData.map(({ title, val, link }) => (
             <Box key={nanoid()} display="flex" alignItems="center" mt={3.2}>
               <Typography variant="body2">

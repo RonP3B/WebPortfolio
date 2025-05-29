@@ -26,7 +26,7 @@ const Profile: React.FC = () => {
         <Box
           component="img"
           alt="Roniell Pérez"
-          src="images/main/yolanda.jpg"
+          src="images/main/yolanda.png"
           sx={{ width: "100%" }}
         />
       </Box>

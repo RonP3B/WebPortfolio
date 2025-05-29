@@ -10,9 +10,9 @@ export const resume = {
     {
       title: "Diploma of Education, Computer Software Technology/Technician",
       school: "Instituto Tecnológico de Las Américas",
-      date: "2021 - 2023",
-      gpa: "GPA: 4.0/4.0",
-      diploma: undefined,
+      date: "2021 - 2024",
+      gpa: "GPA: 3.98/4.0",
+      diploma: "files/ITLACertificate.pdf",
     },
   ],
   certifications: [
@@ -63,11 +63,6 @@ export const resume = {
       link: "https://en.wikipedia.org/wiki/TypeScript",
     },
     {
-      icon: "images/skills/java.png",
-      name: "Java",
-      link: "https://en.wikipedia.org/wiki/Java_%28programming_language%29",
-    },
-    {
       icon: "images/skills/CSharp.png",
       name: "C#",
       link: "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)",
@@ -88,6 +83,11 @@ export const resume = {
       link: "https://en.wikipedia.org/wiki/Microsoft_SQL_Server",
     },
     {
+      icon: "images/skills/postgresql.png",
+      name: "PostgreSQL",
+      link: "https://www.postgresql.org",
+    },
+    {
       icon: "images/skills/html.png",
       name: "HTML",
       link: "https://en.wikipedia.org/wiki/HTML",
@@ -96,11 +96,6 @@ export const resume = {
       icon: "images/skills/css-3.png",
       name: "CSS",
       link: "https://en.wikipedia.org/wiki/CSS",
-    },
-    {
-      icon: "images/skills/postgresql.png",
-      name: "PostgreSQL",
-      link: "https://www.postgresql.org",
     },
     {
       icon: "images/skills/react.png",
@@ -128,9 +123,9 @@ export const resume = {
       link: "https://handlebarsjs.com/guide/",
     },
     {
-      icon: "images/skills/nestjs.svg",
-      name: "Nestjs",
-      link: "https://docs.nestjs.com/",
+      icon: "images/skills/razor.png",
+      name: "Razor Pages",
+      link: "https://learn.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-9.0&tabs=visual-studio",
     },
     {
       icon: "images/skills/node-js.png",
@@ -138,19 +133,24 @@ export const resume = {
       link: "https://en.wikipedia.org/wiki/Node.js",
     },
     {
+      icon: "images/skills/dotnet.png",
+      name: ".NET Core",
+      link: "https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet",
+    },
+    {
+      icon: "images/skills/nestjs.svg",
+      name: "Nestjs",
+      link: "https://docs.nestjs.com/",
+    },
+    {
       icon: "images/skills/express.png",
       name: "Expressjs",
       link: "https://en.wikipedia.org/wiki/Express.js",
     },
     {
-      icon: "images/skills/sequelize.png",
-      name: "Sequelize-orm",
-      link: "https://sequelize.org/",
-    },
-    {
-      icon: "images/skills/prisma.png",
-      name: "Prisma-orm",
-      link: "https://www.prisma.io/docs/orm/overview/introduction/what-is-prisma",
+      icon: "images/skills/AspDotNet.png",
+      name: "ASP.NET Core",
+      link: "https://dotnet.microsoft.com/en-us/learn/aspnet/what-is-aspnet",
     },
     {
       icon: "images/skills/api.png",
@@ -166,11 +166,6 @@ export const resume = {
       icon: "images/skills/socketio.png",
       name: "Socket.IO",
       link: "https://en.wikipedia.org/wiki/Socket.IO",
-    },
-    {
-      icon: "images/skills/json-file.png",
-      name: "JSON",
-      link: "https://en.wikipedia.org/wiki/JSON",
     },
     {
       icon: "images/skills/jwt.png",
@@ -199,15 +194,13 @@ export const resume = {
     },
     {
       icon: "images/skills/agile.png",
-      name: "Agile Methodologies",
+      name: "Agile",
       link: "https://asana.com/resources/agile-methodology",
     },
-  ],
-  learningSkills: [
     {
-      icon: "images/skills/AspDotNet.png",
-      name: "ASP.NET",
-      link: "https://dotnet.microsoft.com/en-us/learn/aspnet/what-is-aspnet",
+      icon: "images/skills/solid.svg",
+      name: "Solid Principles",
+      link: "https://contabo.com/blog/what-are-solid-principles/#:~:text=The%20acronym%20SOLID%20stands%20for,Principle%2C%20and%20Dependency%20Inversion%20Principle",
     },
     {
       icon: "images/skills/hexagonal.png",
@@ -218,6 +211,18 @@ export const resume = {
       icon: "images/skills/CQRS.png",
       name: "CQRS pattern",
       link: "https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs",
+    },
+  ],
+  learningSkills: [
+    {
+      icon: "images/skills/ddd.png",
+      name: "Domain Driven Design",
+      link: "https://en.wikipedia.org/wiki/Domain-driven_design",
+    },
+    {
+      icon: "images/skills/testing.png",
+      name: "Software Testing",
+      link: "https://www.ibm.com/think/topics/software-testing#:~:text=Software%20testing%20is%20the%20process,what%20it's%20supposed%20to%20do",
     },
   ],
 };
